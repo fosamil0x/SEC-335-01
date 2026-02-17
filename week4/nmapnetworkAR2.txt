@@ -1,0 +1,22 @@
+# Nmap 7.95 scan initiated Tue Feb  3 11:06:40 2026 as: /usr/lib/nmap/nmap -A -R -oG nmapnetworkAR2.txt 10.0.5.0/24
+Host: 10.0.5.2 ()	Status: Up
+Host: 10.0.5.2 ()	Ports: 	Ignored State: closed (1000)
+Host: 10.0.5.20 ()	Status: Up
+Host: 10.0.5.20 ()	Ports: 22/open/tcp//ssh//OpenSSH 8.9p1 Ubuntu 3 (Ubuntu Linux; protocol 2.0)/, 53/open/tcp//domain//ISC BIND 9.18.1-1ubuntu1.1 (Ubuntu Linux)/	Ignored State: closed (998)	OS: Linux 4.15 - 5.19|OpenWrt 21.02 (Linux 5.4)|MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3)	Seq Index: 257	IP ID Seq: All zeros
+Host: 10.0.5.21 ()	Status: Up
+Host: 10.0.5.21 ()	Ports: 22/open/tcp//ssh//OpenSSH 8.8 (FreeBSD 20211221; protocol 2.0)/, 80/open/tcp//http//nginx 1.20.2/	Ignored State: filtered (998)	Seq Index: 264	IP ID Seq: All zeros
+Host: 10.0.5.22 ()	Status: Up
+Host: 10.0.5.22 ()	Ports: 22/open/tcp//ssh//OpenSSH 8.9p1 Ubuntu 3 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.52 ((Ubuntu))/, 3000/open/tcp//http//Golang net|http server/	Ignored State: closed (997)	OS: Linux 4.15 - 5.19|OpenWrt 21.02 (Linux 5.4)|MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3)	Seq Index: 260	IP ID Seq: All zeros
+Host: 10.0.5.23 ()	Status: Up
+Host: 10.0.5.23 ()	Ports: 80/open/tcp//http//Apache httpd 2.4.52 ((Ubuntu))/	Ignored State: filtered (999)	Seq Index: 260	IP ID Seq: All zeros
+Host: 10.0.5.24 ()	Status: Up
+Host: 10.0.5.24 ()	Ports: 22/open/tcp//ssh//OpenSSH 7.6p1 Ubuntu 4ubuntu0.7 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.29 ((Ubuntu))/	Ignored State: closed (998)	OS: Linux 4.15 - 5.19|OpenWrt 21.02 (Linux 5.4)|MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3)	Seq Index: 260	IP ID Seq: All zeros
+Host: 10.0.5.25 ()	Status: Up
+Host: 10.0.5.25 ()	Ports: 21/open/tcp//ftp//vsftpd 3.0.2/, 22/open/tcp//ssh//OpenSSH 7.4 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.6 ((CentOS) PHP|7.3.31)/	Ignored State: filtered (997)	Seq Index: 262	IP ID Seq: All zeros
+Host: 10.0.5.26 ()	Status: Up
+Host: 10.0.5.26 ()	Ports: 22/open/tcp//ssh//OpenSSH 8.0 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.37 ((rocky))/, 9090/closed/tcp//zeus-admin///	Ignored State: filtered (997)	Seq Index: 263	IP ID Seq: All zeros
+Host: 10.0.5.27 ()	Status: Up
+Host: 10.0.5.27 ()	Ports: 22/open/tcp//ssh//OpenSSH for_Windows_7.7 (protocol 2.0)/, 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds?///	Ignored State: closed (996)	OS: Microsoft Windows 10 1709 - 21H2	Seq Index: 261	IP ID Seq: Incremental
+Host: 10.0.5.31 ()	Status: Up
+Host: 10.0.5.31 ()	Ports: 22/open/tcp//ssh//OpenSSH for_Windows_7.7 (protocol 2.0)/, 443/open/tcp//ssl|http//Apache httpd 2.4.51 ((Win64) OpenSSL|1.1.1l PHP|7.3.31)/, 3389/open/tcp//ms-wbt-server//Microsoft Terminal Services/	Ignored State: filtered (997)	Seq Index: 263	IP ID Seq: Incremental
+# Nmap done at Tue Feb  3 11:07:41 2026 -- 256 IP addresses (10 hosts up) scanned in 60.84 seconds
